@@ -1,0 +1,205 @@
+:root {
+    --primary-text-color: #212121;
+    --activ-text-color: #2196F3;
+    --secondary-text-colr: #757575;
+    --secondary-bg-color: #F5F4FA;
+    --primary-bg-color:  #fff;
+    
+}
+
+body {
+    background-color: #fff;
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+/* header */
+
+.header-link {
+    color: var(--primary-text-color);
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.name-company {
+    color: var(--activ-text-color);
+}
+
+.list {
+list-style: none;
+}
+
+.site-info a {
+    color: var(--primary-text-color); 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;  
+    text-decoration: none; 
+}
+
+.site-nav a {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav a.current {
+    color: var(--activ-text-color);
+}
+
+.site-info a:hover, 
+.site-info a:focus {
+    color: var(--activ-text-color);
+}
+
+.site-nav a:hover, 
+.site-nav a:focus {
+    color: var(--activ-text-color);
+}
+
+/* hero */
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* advantages */
+
+.advantages p {
+    color: var(--secondary-text-colr);
+
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+
+.advantages h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+
+/* examples */
+
+
+/* team */
+
+.team p {
+    color: var(--secondary-text-colr);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+/* footer */
+
+footer > p {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.14;
+}
+
+footer > address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;    
+}
+
+footer a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+/* button */
+
+.button {
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    text-decoration: none;;
+}
+
+.button.primary:hover, 
+.button.primary:focus {
+    background-color: var(--activ-text-color);
+    color: var(--primary-bg-color);
+}
+
+.button.primary {
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-text-color);
+}
+
+.button.secondary {
+    background-color: var(--activ-text-color);
+    color: var(--primary-bg-color);
+}
+
+.button.secondary.current {
+    background-color: var(--activ-text-color);
+    color: var(--primary-bg-color);
+}
+
+/* потфолио */
+
+.works.list h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
+} 
+
+.works.list p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+color: var(--secondary-text-colr);
+}
+
+
+/* цвет страницы #FFFFFF */
+/* основной цвет текста 212121 */
+/* вторичный цвет текста 757575 */
+/* цвет эффектов 2196F3 */
+/* доп. цвет фона F5F4FA */
+/* цвет подвала 2F303A */
