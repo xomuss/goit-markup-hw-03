@@ -30,6 +30,8 @@ body {
 
 .list {
 list-style: none;
+padding: 0;
+margin: 0;
 }
 
 .site-info a {
@@ -64,15 +66,35 @@ list-style: none;
     color: var(--activ-text-color);
 }
 
+.page-header {
+    background-color: #ccc;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding: 0px 15px;
+    outline: 2px solid tomato;
+}
+
 /* hero */
 
+.hero {
+    text-align: center;
+    margin-bottom: 94px;
+}
+
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+
 }
 
 .hero button {
@@ -81,9 +103,14 @@ list-style: none;
     line-height: 1.87;
     text-align: center;
     letter-spacing: 0.06em;
+    padding: 10px 32px;
 }
 
 /* advantages */
+
+.advantages {
+    margin-bottom: 94px;
+}
 
 .advantages p {
     color: var(--secondary-text-colr);
@@ -91,6 +118,8 @@ list-style: none;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
+margin-top: 0;
+margin-bottom: 0;
 }
 
 .advantages h3 {
@@ -98,9 +127,12 @@ line-height: 1.71;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .section-title {
+    margin-top: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -109,6 +141,10 @@ line-height: 1.71;
 
 
 /* examples */
+
+.examples {
+    margin-bottom: 94px;
+}
 
 
 /* team */
@@ -130,24 +166,19 @@ line-height: 1.71;
 
 /* footer */
 
-footer > p {
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.14;
-}
 
-footer > address {
+.footer-address {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;    
 }
 
-footer a {
+.footer-address a {
     color: var(--primary-text-color);
     text-decoration: none;
 }
+
 
 /* button */
 
@@ -155,7 +186,10 @@ footer a {
     background-color: var(--secondary-bg-color);
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
-    text-decoration: none;;
+    text-decoration: none;
+    padding: 6px 22px;
+    border-radius: 4px;
+    border: none;
 }
 
 .button.primary:hover, 
