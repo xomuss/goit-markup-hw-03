@@ -215,7 +215,13 @@ margin-bottom: 0;
 /* team */
 
 .team {
-    margin-bottom: 94px;
+    background-color: var(--secondary-bg-color);
+
+}
+
+.team > div {
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .team p {
@@ -224,8 +230,7 @@ margin-bottom: 0;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin: 0;
 }
 
 .team h3 {
@@ -238,11 +243,13 @@ margin-bottom: 0;
 }
 
 .team .section-title {
-    padding-top: 94px;
+
 }
 
 .team figure {
     margin: 0;
+    background-color: #fff;
+    padding-bottom: 30px;
 }
 
 .team .foto {
@@ -373,6 +380,9 @@ color: var(--secondary-text-colr);
 .works.list .item{
     margin-right: 30px;
     margin-bottom: 30px;
+    width: 370px;
+    height: 404px;
+    border: 1px solid #eeeeee;
 }
 
 .works.list .item p {
