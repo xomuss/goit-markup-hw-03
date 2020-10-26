@@ -4,7 +4,7 @@
     --secondary-text-colr: #757575;
     --secondary-bg-color: #F5F4FA;
     --primary-bg-color:  #fff;
-    
+    --third-bg-color: #2F303A;
 }
 
 body {
@@ -15,6 +15,10 @@ body {
 }
 
 /* header */
+
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+}
 
 .header-link {
     color: var(--primary-text-color);
@@ -100,9 +104,6 @@ margin: 0;
     color: var(--activ-text-color);
 }
 
-.page-header {
-    margin-bottom: 94px;
-}
 
 .container {
     margin-left: auto;
@@ -115,7 +116,10 @@ margin: 0;
 
 .hero {
     text-align: center;
+    padding-bottom: 200px;
+    padding-top: 200px;
     margin-bottom: 94px;
+    background-color: var(--third-bg-color);
 }
 
 .hero-title {
@@ -126,7 +130,7 @@ margin: 0;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
+    color: #ffffff
 
 }
 
@@ -259,7 +263,19 @@ margin-bottom: 0;
 
 /* footer */
 
-.footer.container {
+.footer {
+    background-color: var(--third-bg-color);
+}
+
+.footer .header-link {
+    color: #ffffff;
+}
+
+.footer-address > span {
+    color: #ffffff;
+}
+
+.footer     .container {
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -281,7 +297,7 @@ margin-bottom: 0;
 }
 
 .footer-address a {
-    color: var(--primary-text-color);
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
 
@@ -296,6 +312,9 @@ margin-bottom: 0;
     padding: 6px 22px;
     border-radius: 4px;
     border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
 }
 
 .button.primary:hover, 
@@ -380,6 +399,7 @@ color: var(--secondary-text-colr);
 
 .portfolio.container {
     margin-bottom: 94px;
+    margin-top: 94px;
 }
 
 .portfolio.container h1 {
