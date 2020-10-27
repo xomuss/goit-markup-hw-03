@@ -120,6 +120,7 @@ margin: 0;
     padding-top: 200px;
     margin-bottom: 94px;
     background-color: var(--third-bg-color);
+    height: 600px;
 }
 
 .hero-title {
